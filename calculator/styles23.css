@@ -1,0 +1,41 @@
+.container{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(194, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc{
+    background: rgb(48, 47, 47);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.cbutton{
+    border:1px;
+    border-radius: 5px;
+    width:60px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.screen{
+    width:240px;
+    text-align:right;
+    height: 40px;
+    font-size: 30px;
+
+}
+
+.equal{
+    border:1px;
+    border-radius: 5px;
+    width:125px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: orange;
+}
